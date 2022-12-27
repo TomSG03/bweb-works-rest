@@ -1,0 +1,41 @@
+.mf-req {
+  color:red;
+}
+
+.info {
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  border: black solid 1px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 6px 6px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 6px 6px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 6px 6px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+input:last-child {
+  margin-bottom: 0;
+}
+
+span.mf-req {
+  color: red;
+}
+
+div.info {
+  display: none;
+}
+
